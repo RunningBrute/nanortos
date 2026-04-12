@@ -1,0 +1,32 @@
+# Build dirs
+build/
+cmake-build-*/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Ninja
+.ninja_log
+.ninja_deps
+
+# Binaries
+*.elf
+*.bin
+*.hex
+*.map
+
+# Object files
+*.o
+*.obj
+*.a
+
+# Debug / temp
+*.log
+
+# VS Code
+.vscode/
