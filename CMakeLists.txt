@@ -4,6 +4,7 @@ project(NanoRTOS C CXX ASM)
 
 add_executable(nano_rtos.elf
     src/main.cpp
+    src/startup.cpp
     startup/startup.s
 )
 

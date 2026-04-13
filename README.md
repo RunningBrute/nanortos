@@ -22,7 +22,7 @@ and add to `.bashrc` followinf line:
 export PATH=$HOME/arm-toolchain/bin:$PATH
 ```
 
-### OpenOCD and debug
+### OpenOCD & Debugger
 
 ```bash
 sudo apt install openocd
@@ -61,4 +61,6 @@ cmake --build .
 openocd -f interface/stlink.cfg -f target/stm32l4x.cfg
 ```
 
-and run gdb `arm-none-eabi-gdb build/nano_rtos.elf` and connect with a gdb using command: `target remote localhost:3333`
+## Debug
+
+Run gdb `arm-none-eabi-gdb build/nano_rtos.elf` and connect with board using command: `target remote localhost:3333`
