@@ -1,4 +1,4 @@
-extern "C" void main(void)
+extern "C" int main(void)
 {
     while (1)
     {
