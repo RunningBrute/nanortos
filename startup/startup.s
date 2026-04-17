@@ -17,7 +17,7 @@ _start:
   .endr
 
 Reset_Handler:
-  bl reset_handler_cpp
+  bl reset_handler
 
 Default_Handler:
   b Default_Handler
